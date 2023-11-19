@@ -22,6 +22,11 @@ body{
     margin-top: 30px;
 }
 
+.logo {
+    height: 40px;
+    width: auto;
+}
+
 #navbar{
     display: flex;
     background-color: rgba(0, 0, 0, 0.6);
@@ -38,11 +43,6 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 20px 0;
-}
-
-#navbar .navbar-container .logo{
-    height: 40px;
-    width: auto;
 }
 
 #navbar .navbar-container ul{
