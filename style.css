@@ -8,6 +8,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .btn-primary{
@@ -22,9 +23,15 @@ body{
     margin-top: 30px;
 }
 
+.btn-primary:hover{
+    background: #1ed760;
+    cursor: pointer;
+}
+
 .logo {
     height: 40px;
     width: auto;
+    cursor: pointer;
 }
 
 #navbar{
@@ -53,6 +60,12 @@ body{
 
 #navbar .navbar-container ul li{
     padding: 0 20px;
+}
+
+#navbar .navbar-container ul li:hover{
+    color: #1DB954;
+    cursor: pointer;
+    transition: all 300ms ease;
 }
 
 #navbar .navbar-container ul li:nth-child(3){
@@ -107,6 +120,12 @@ body{
     margin: 25px 0;
 }
 
+#footer .footer-content .footer-menu .footer-menu-item:hover{
+    color: #1ed760;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
 #footer .footer-content .footer-menu p{
     font-weight: bold;
     text-transform: uppercase;
@@ -121,6 +140,12 @@ body{
 .socials i{
     margin: 0 20px;
     font-size: 1.7rem;
+}
+
+.socials i:hover{
+    color: #1DB954;
+    cursor: pointer;
+    transition: all 300ms ease;
 }
 
 .footer-info{
@@ -142,6 +167,12 @@ body{
 
 .footer-info .footer-info-items .footer-info-item{
     margin: 0 10px;
+}
+
+.footer-info .footer-info-items .footer-info-item:hover{
+    color: #1DB954;
+    cursor: pointer;
+    transition: all 300ms ease;
 }
 
 .footer-info .rights .country{
