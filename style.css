@@ -26,6 +26,7 @@ body{
 .btn-primary:hover{
     background: #1ed760;
     cursor: pointer;
+    transition: all 300ms ease;
 }
 
 .logo {
